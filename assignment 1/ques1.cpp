@@ -18,7 +18,7 @@ int del(int arr[],int n,int val,int pos){
         return n;
     }
 	for(int i=pos-1;i<n-1;i++){
-		arr[i+1]=arr[i];
+		arr[i]=arr[i+1];
 	}
 	n--;
 	return n;
